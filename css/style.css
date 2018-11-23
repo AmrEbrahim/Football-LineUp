@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: 'AraHamahHoms'; }
+
+@font-face {
+  font-family: 'AraHamahHoms';
+  src: url(../fonts/AraHamahHoms/AraHamahHoms-Regular.eot);
+  src: url(../fonts/AraHamahHoms/AraHamahHoms-Regular.ttf);
+  src: url(../fonts/AraHamahHoms/AraHamahHoms-Regular.woff); }
+
+body .container {
+  width: 650px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative; }
+  body .container .dreamteam {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/playground.jpg);
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+    background-repeat: no-repeat; }
+    body .container .dreamteam .select-formation {
+      width: 100%;
+      height: 20%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      color: white; }
+      body .container .dreamteam .select-formation h1 {
+        font-size: 2em;
+        margin: 10px 0 0; }
+      body .container .dreamteam .select-formation h4 {
+        font-size: 1.3em;
+        margin: 10px 0 0; }
+      body .container .dreamteam .select-formation .button {
+        margin-top: 10px;
+        padding: 10px;
+        background: black;
+        border: 2px solid #564727;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        direction: rtl; }
+        body .container .dreamteam .select-formation .button p {
+          margin-left: 10px; }
+        body .container .dreamteam .select-formation .button .row {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin: 1.5px; }
+          body .container .dreamteam .select-formation .button .row span {
+            margin: 1px;
+            background: #FFF;
+            width: 3px;
+            height: 3px; }
+      body .container .dreamteam .select-formation .button:hover {
+        background: #f0a306;
+        color: black;
+        cursor: pointer; }
+        body .container .dreamteam .select-formation .button:hover span {
+          background: #000; }
+    body .container .dreamteam .playground {
+      width: 100%;
+      height: 76%; }
+      body .container .dreamteam .playground .one {
+        display: none; }
+      body .container .dreamteam .playground .two {
+        display: none; }
+      body .container .dreamteam .playground .three {
+        display: block; }
+      body .container .dreamteam .playground .formation {
+        width: 100%;
+        height: 100%; }
+        body .container .dreamteam .playground .formation .formation-row {
+          width: 100%;
+          height: 16%;
+          margin-top: 15px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          body .container .dreamteam .playground .formation .formation-row.defence .player:first-of-type {
+            margin-top: 30px; }
+          body .container .dreamteam .playground .formation .formation-row.defence .player:last-of-type {
+            margin-top: 30px; }
+          body .container .dreamteam .playground .formation .formation-row .player {
+            width: 17%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            cursor: pointer;
+            -webkit-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out; }
+            body .container .dreamteam .playground .formation .formation-row .player .player-image {
+              width: 50px;
+              height: 50px;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              border: 3px solid #585d57;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              position: relative; }
+              body .container .dreamteam .playground .formation .formation-row .player .player-image img {
+                -webkit-border-radius: 50%;
+                        border-radius: 50%; }
+              body .container .dreamteam .playground .formation .formation-row .player .player-image .plus {
+                position: absolute;
+                top: -5px;
+                left: -7px; }
+              body .container .dreamteam .playground .formation .formation-row .player .player-image .wrong {
+                position: absolute;
+                top: -5px;
+                left: -7px; }
+            body .container .dreamteam .playground .formation .formation-row .player .player-name {
+              color: #a9aba9; }
+          body .container .dreamteam .playground .formation .formation-row .player:hover {
+            -webkit-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                    transform: scale(0.9); }
+  body .container .formation-popup {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #1b1d1e;
+    background: rgba(27, 29, 30, .85);
+    z-index: 5;
+    display: none; }
+    body .container .formation-popup .head {
+      width: 100%;
+      height: 15%;
+      background: #1b1d1e;
+      background: rgba(27, 29, 30, .95);
+      color: #FFF;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      direction: rtl;
+      padding: 30px;
+      font-size: 1.5em; }
+      body .container .formation-popup .head .close {
+        width: 50px;
+        height: 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer; }
+    body .container .formation-popup .formation-list {
+      width: 100%;
+      height: 85%; }
+      body .container .formation-popup .formation-list .formation-row {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        body .container .formation-popup .formation-list .formation-row .formation-data {
+          width: 33%;
+          height: 30%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          padding: 10px;
+          border: 1px solid #36383a;
+          color: #e7e7e7;
+          font-size: 1.5em;
+          cursor: pointer; }
+          body .container .formation-popup .formation-list .formation-row .formation-data .plan {
+            width: 100%;
+            height: 50%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                    flex-direction: column; }
+            body .container .formation-popup .formation-list .formation-row .formation-data .plan .plan-row {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+                  -ms-flex-align: center;
+                      align-items: center; }
+              body .container .formation-popup .formation-list .formation-row .formation-data .plan .plan-row span {
+                width: 4px;
+                height: 4px;
+                margin: 5px;
+                background: #FFF; }
+          body .container .formation-popup .formation-list .formation-row .formation-data .selected-image {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            display: none; }
+        body .container .formation-popup .formation-list .formation-row .formation-data:hover .selected-image {
+          display: block; }
+  body .container .players-popup {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #1b1d1e;
+    background: rgba(27, 29, 30, .85);
+    z-index: 5;
+    display: none; }
+    body .container .players-popup .head {
+      width: 100%;
+      height: 15%;
+      background: #1b1d1e;
+      background: rgba(27, 29, 30, .95);
+      color: #FFF;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      direction: rtl;
+      padding: 30px;
+      font-size: 1.5em; }
+      body .container .players-popup .head .close {
+        width: 50px;
+        height: 50px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer; }
+    body .container .players-popup .players-list {
+      width: 100%;
+      height: 85%;
+      overflow: hidden;
+      overflow-y: scroll; }
+      body .container .players-popup .players-list .players-row {
+        list-style: none;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+        body .container .players-popup .players-list .players-row .disabled {
+          opacity: 0.4;
+          pointer-events: none; }
+        body .container .players-popup .players-list .players-row .players-data {
+          width: 33%;
+          height: 175px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          padding: 10px;
+          border: 1px solid #36383a;
+          color: #e7e7e7;
+          font-size: 1em;
+          cursor: pointer; }
+          body .container .players-popup .players-list .players-row .players-data .player-image {
+            width: 80px;
+            height: 80px;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
+            overflow: hidden;
+            margin: 7px;
+            -webkit-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out; }
+            body .container .players-popup .players-list .players-row .players-data .player-image img {
+              width: 100%;
+              height: 100%; }
+          body .container .players-popup .players-list .players-row .players-data .player-name {
+            -webkit-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out; }
+          body .container .players-popup .players-list .players-row .players-data .selected-image {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            display: none; }
+        body .container .players-popup .players-list .players-row .players-data:hover .player-name {
+          -webkit-transform: translateY(-5px);
+              -ms-transform: translateY(-5px);
+                  transform: translateY(-5px);
+          color: #dc9709; }
+        body .container .players-popup .players-list .players-row .players-data:hover .player-image {
+          -webkit-transform: translateY(-5px);
+              -ms-transform: translateY(-5px);
+                  transform: translateY(-5px);
+          border: 2px solid #b37d0c;
+          -webkit-box-shadow: 1px 1px 1px #b37d0c;
+                  box-shadow: 1px 1px 1px #b37d0c; }
+        body .container .players-popup .players-list .players-row .players-data:hover .selected-image {
+          display: block; }
+
+@media only screen and (max-width: 550px) {
+  body .container {
+    width: 300px;
+    height: 420px; }
+    body .container .dreamteam .select-formation {
+      height: 19%; }
+      body .container .dreamteam .select-formation h1 {
+        font-size: 15px;
+        margin: 3px 0 0; }
+      body .container .dreamteam .select-formation h4 {
+        font-size: 15px;
+        margin: 3px 0 0; }
+      body .container .dreamteam .select-formation .button {
+        font-size: 11px;
+        margin-top: 3px;
+        padding: 3px; }
+        body .container .dreamteam .select-formation .button .formation .row span {
+          width: 2px;
+          height: 2px; }
+    body .container .dreamteam .playground {
+      height: 70%; }
+      body .container .dreamteam .playground .formation .formation-row .player .player-image {
+        width: 30px;
+        height: 30px; }
+        body .container .dreamteam .playground .formation .formation-row .player .player-image img {
+          width: 85%; }
+        body .container .dreamteam .playground .formation .formation-row .player .player-image .plus {
+          width: 50%;
+          top: -2px;
+          left: -5px; }
+        body .container .dreamteam .playground .formation .formation-row .player .player-image .wrong {
+          width: 50%;
+          top: -2px;
+          left: -5px; }
+      body .container .dreamteam .playground .formation .formation-row .player .player-name {
+        font-size: 7px; }
+    body .container .formation-popup .head p {
+      font-size: 18px; }
+    body .container .formation-popup .head .close {
+      width: 15px;
+      height: 15px; }
+    body .container .formation-popup .formation-list .formation-row .formation-data p {
+      font-size: 18px; }
+    body .container .formation-popup .formation-list .formation-row .formation-data .plan .plan-row span {
+      width: 3px;
+      height: 3px;
+      margin: 3px; }
+    body .container .formation-popup .formation-list .formation-row .formation-data .selected-image img {
+      width: 15px; }
+    body .container .players-popup .head p {
+      font-size: 18px; }
+    body .container .players-popup .head .close {
+      width: 15px;
+      height: 15px; }
+    body .container .players-popup .players-list .players-row .players-data {
+      height: 110px; }
+      body .container .players-popup .players-list .players-row .players-data .player-image {
+        width: 40px;
+        height: 40px; }
+      body .container .players-popup .players-list .players-row .players-data .player-name {
+        font-size: 10px; }
+      body .container .players-popup .players-list .players-row .players-data .selected-image img {
+        width: 15px; } }
+
+@media only screen and (min-width: 550px) and (max-width: 900px) {
+  body .container {
+    width: 550px;
+    height: 650px; }
+    body .container .dreamteam .select-formation {
+      height: 20%; }
+      body .container .dreamteam .select-formation h1 {
+        margin: 3px 0 0; }
+      body .container .dreamteam .select-formation h4 {
+        margin: 3px 0 0; }
+      body .container .dreamteam .select-formation .button {
+        margin-top: 3px; }
+    body .container .dreamteam .playground {
+      height: 70%; }
+      body .container .dreamteam .playground .formation .formation-row .player .player-name {
+        font-size: 13px; } }
+
+/*# sourceMappingURL=style.css.map */
