@@ -172,13 +172,16 @@ body .container {
               position: relative; }
               body .container .dreamteam .playground .formation .formation-row .player .player-image img {
                 -webkit-border-radius: 50%;
-                        border-radius: 50%; }
+                        border-radius: 50%;
+                width: 100%; }
               body .container .dreamteam .playground .formation .formation-row .player .player-image .plus {
                 position: absolute;
+                width: 50%;
                 top: -5px;
                 left: -7px; }
               body .container .dreamteam .playground .formation .formation-row .player .player-image .wrong {
                 position: absolute;
+                width: 50%;
                 top: -5px;
                 left: -7px; }
             body .container .dreamteam .playground .formation .formation-row .player .player-name {
