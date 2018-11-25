@@ -479,8 +479,6 @@ body .container {
       body .container .dreamteam .playground .formation .formation-row .player .player-image {
         width: 30px;
         height: 30px; }
-        body .container .dreamteam .playground .formation .formation-row .player .player-image img {
-          width: 85%; }
         body .container .dreamteam .playground .formation .formation-row .player .player-image .plus {
           width: 50%;
           top: -2px;
