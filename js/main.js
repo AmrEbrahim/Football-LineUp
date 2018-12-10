@@ -111,7 +111,7 @@ const entireScript = {
 
     selectedRest: function () {
         entireScript.players.forEach(player => player.innerHTML = entireScript.content)
-        for (let i = 0; i < entireScript.goalKeeper.length; i++) {
+        for (let i = 0; i < playerModel.length; i++) {
             playerModel[i].selected = false;
         }
     },
