@@ -1,4 +1,4 @@
-export const arrayPlayers = [{
+export const PlayerModel = [{
         name: 'Mohamed El Shenawy',
         image: 'images/shenawy.png',
         title: 'حارس المرمى',
@@ -153,3 +153,4 @@ export const arrayPlayers = [{
         type: 'attack'
     }
 ]
+

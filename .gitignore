@@ -3,3 +3,5 @@ sass/
 gulpfile.js
 *package-lock.json
 *.map
+*.json
+*webpack.config.js
