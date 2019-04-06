@@ -6,18 +6,18 @@ let playerModel = PlayerModel;
 class Stadium {
     constructor() {
         this.content = `<div class="player-image">
-    <img class="plus" src="images/plus.png">
-    <img src="images/player.png">
-    </div>
-    <div class="player-name">
-    <p>Name</p>
-    </div>`;
-    this.goalKeeperPlayers = document.querySelectorAll('div[data-value="goalKeeper"]');
-    this.defencePlayers = document.querySelectorAll('div[data-value="defence"]');
-    this.midfielderPlayers = document.querySelectorAll('div[data-value="midfielder"]');
-    this.attackPlayers = document.querySelectorAll('div[data-value="attack"]');
-        
-}
+                            <img class="plus" src="images/plus.png">
+                            <img src="images/player.png">
+                        </div>
+                        <div class="player-name">
+                            <p>Name</p>
+                        </div>`;
+        this.goalKeeperPlayers = document.querySelectorAll('div[data-value="goalKeeper"]');
+        this.defencePlayers = document.querySelectorAll('div[data-value="defence"]');
+        this.midfielderPlayers = document.querySelectorAll('div[data-value="midfielder"]');
+        this.attackPlayers = document.querySelectorAll('div[data-value="attack"]');
+
+    }
     /////////////////////////////////////////////////
     ////////////////// Change Formation /////////////
     /////////////////////////////////////////////////
@@ -66,29 +66,31 @@ class Stadium {
         for (let i = 0; i < postion.length; i++) {
             const playersRow = document.querySelector('.players-row');
             if (postion[i].selected === true) {
-                playersRow.innerHTML += `<li class="players-data disabled">
-                <div class="player-image">
-                <img src="${postion[i].image}">
-                </div>
-                <div class="player-name">
-                ${postion[i].name}
-                </div>
-                <div class="selected-image">
-                <img src="images/selected.png">
-                </div>
-                </li>`
+                playersRow.innerHTML +=
+                    `<li class="players-data disabled">
+                        <div class="player-image">
+                            <img src="${postion[i].image}">
+                        </div>
+                        <div class="player-name">
+                            ${postion[i].name}
+                        </div>
+                        <div class="selected-image">
+                            <img src="images/selected.png">
+                        </div>
+                    </li>`
             } else if (postion[i].selected === false) {
-                playersRow.innerHTML += `<li class="players-data">
-                <div class="player-image">
-                <img src="${postion[i].image}">
-                </div>
-                <div class="player-name">
-                ${postion[i].name}
-                </div>
-                <div class="selected-image">
-                <img src="images/selected.png">
-                </div>
-                </li>`
+                playersRow.innerHTML +=
+                    `<li class="players-data">
+                        <div class="player-image">
+                            <img src="${postion[i].image}">
+                        </div>
+                        <div class="player-name">
+                            ${postion[i].name}
+                        </div>
+                        <div class="selected-image">
+                            <img src="images/selected.png">
+                        </div>
+                    </li>`
             }
         }
     }
